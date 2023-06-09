@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://notificationwascodev.netlify.app/)
+- Solution URL: [solution to the url](https://www.frontendmentor.io/solutions/html-css-css-properties-flex-padding-margin-media-queries-dkj5vxzBXL)
+- Live Site URL: [live server url](https://notificationwascodev.netlify.app/)
 
 ## My process
 
@@ -106,8 +106,8 @@ I'm really happy on working on this project. I'm passionate on coding and i'm lo
 ## Author
 
 - Github - [WascoDev](https://github.com/WascoDev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Wasco123)
-- Twitter - [@yourusername](https://twitter.com/Wascodev)
+- Frontend Mentor - [Odubote Wasiu](https://www.frontendmentor.io/profile/Wasco123)
+- Twitter - [wascodev](https://twitter.com/Wascodev)
 
 
 ## Acknowledgments
