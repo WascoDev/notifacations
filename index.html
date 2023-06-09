@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <main>
+    <header>
+      <nav class="navbar">
+        <h1 class="message">Notifications <span>3</span></h1>
+              <p>Marked all unread</p>
+      </nav>
+    </header>
+      
+      <section>
+        
+        <article class="notification active">
+          <img src="./assets/images/avatar-mark-webber.webp" class="user-img" alt="User image" />
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Mark Weber</span>reacted to your recent post <span class="user-title">My first tournament today!</span> 
+                  <span class="active" id="active"></span>
+              </p>
+              <time>1m ago</time>
+          </div>
+      </article>
+
+      <article class="notification active">
+          <img src="../assets/images/avatar-angela-gray.webp" class="user-img" alt="User image" />
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Angel Gray </span> followed you
+                  <span class="active" id="active"></span>
+              </p>
+              <time>5m ago</time>
+          </div>
+      </article>
+
+      <article class="notification active">
+          <img src="./assets/images/avatar-jacob-thompson.webp" class="user-img" alt="User image" />
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Jacob Thompson </span>has joined your group <span class="user-title">Chess Club</span>
+                  <span class="active" id="active"></span>
+              </p>
+
+              <time>1 day ago</time>
+          </div>
+      </article>
+
+      <article class="notifications sub-header">
+          <div class="notification">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp"
+              class="user-img" alt="User image" />
+              <div class="notification-content">
+                <p class="message">
+                    <span class="user-name">Jacob Thompson </span>follow you
+                  </p>
+                  <time>5 day ago</time>
+              </div>
+            </div>
+            
+          <div class="message-content">
+              <p>Hello thanks for setting up the Chess Club, I've been a member for a week now and i am already have a lot of fun and improving my game</p>
+          </div>
+      </article>
+
+      <article class="multiple-user">
+
+          <div class="notification">
+            <img src="./assets/images/avatar-kimberly-smith.webp" class="user-img" alt="User image" />
+
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Jacob Thompson </span>commented on your picture <span class="user-title">Chess Club</spa>
+                  </p>
+                  <time>1 week ago</time>
+              </div>
+          </div>
+              <div class="user-img">
+                <img src="./assets/images/image-chess.webp" class="user-img photo" alt="User image" />
+              </div>
+      </article>
+
+       <!-- single user notification -->
+       <article class="notification">
+          <img src="./assets/images/avatar-nathan-peterson.webp" class="user-img" alt="User image" />
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Nathan Peterson </span> reacted to your recent post 5
+                  <span class="user-title">End-game strategies to increase your win rate</spa>
+              </p>
+              <time>2 weeks ago</time>
+          </div>
+      </article>
+
+       <!-- single user notification -->
+       <article class="notification notification-read">
+          <img src="./assets/images/avatar-anna-kim.webp" class="user-img" alt="User image" />
+          <div class="notification-content">
+              <p class="message">
+                  <span class="user-name">Anna Kim  </span>left the group <span class="user-title">Chess Club</spa>
+              </p>
+              <time>2 weeks ago</time>
+          </div>
+      </article>
+        
+      </section>
+  </main>
+  
+  <footer class="footer">
+    <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/WascoDev">WascoDev</a>.
+    </p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
